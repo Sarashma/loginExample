@@ -1,0 +1,25 @@
+#container{
+  position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+section {
+  padding: 2rem 20%;
+  background-image: linear-gradient(89deg, #0a3cab, #3ca8d2);
+  color:white;
+}
+
+section:nth-child(2) {
+  
+  color: white;
+  clip-path: polygon(0 0%, 100% 0, 100% 64%, 0 100%);
+  padding: 10rem 20%;
+  padding-top: 0;
+}
+
+body {
+  margin: 0;
+  font: 20px/2.2 system-ui;
+}
